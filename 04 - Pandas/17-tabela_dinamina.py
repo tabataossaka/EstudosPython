@@ -39,7 +39,7 @@ if len(indice_dinamico) > 0 and len(coluna_dinamica) > 0:
         values=valor_analise,
         aggfunc=metrica
     )
-    compras_dinamica["TOTAL_GERAL"] = compras_dinamica.sum(axis=1)
+    compras_dinamica["TOTAL_GERAL"] = compras_dinamica.sum(axis=1)  # TOTAL GERAL e uma coluna nova sendo criada
     compras_dinamica.loc["TOTAL_GERAL"] = compras_dinamica.sum(axis=0).to_list()
     
     st.dataframe(compras_dinamica)

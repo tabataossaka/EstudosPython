@@ -1,5 +1,0 @@
-Eletrônicos,100
-Roupas,50
-Eletrônicos,200
-Alimentos,30
-Roupas,80
