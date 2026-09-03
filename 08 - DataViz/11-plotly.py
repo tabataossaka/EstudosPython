@@ -42,3 +42,4 @@ fig.update_layout(
 )
 # 4 - Exibindo o gráfico
 fig.show()
+
